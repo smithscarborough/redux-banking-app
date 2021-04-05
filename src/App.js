@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Account from "./components/Account";
+import './App.css'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      
+      <Account title="Checking" account="checking" />
+      <Account title="Savings" account="savings" />
     </div>
   );
 }
 
-export default App;
